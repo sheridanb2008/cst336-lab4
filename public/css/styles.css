@@ -1,0 +1,40 @@
+body {
+background:url("/img/wallpaper.png") !important;
+}
+.mainArea {
+  display:flex;
+  justify-content:center;
+}
+.image {
+  padding-right:30px;
+}
+nav a {
+  padding: 15px;
+  padding-bottom:4px;
+  padding-top:4px;
+  font-size: 1.8em;
+  text-decoration: none; 
+  color: orangered;     
+}
+nav a:hover {  
+  border-right:2px yellow solid;
+  border-left:2px yellow solid;
+  font-size: 2em;
+  transition: .9s;   
+  cursor:pointer;
+}
+.text {
+  font-size: 1.2em;
+  width:700px;
+  color:white;
+}
+h1 {
+  font-size: 3em !important;
+  color:white !important;
+  font-family: 'Barriecito', cursive !important;
+  text-shadow: 8px 8px 8px lightgray;
+}
+
+p {
+  color: white;
+}
